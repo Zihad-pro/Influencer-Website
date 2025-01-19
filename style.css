@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-thin2{
+  font-family: "Poppins", serif;
+  font-weight: 510;
+  font-style: normal;
+}
+.poppins-thin3{
+  font-family: "Poppins", serif;
+  font-weight: 720;
+  font-style: normal;
+}
+
+
+.display-flex{
+display:flex;
+
+}
+
+.nav-item{
+list-style:none;
+margin-right:30px;
+
+}
+.nav-link{
+  text-decoration:none;
+  color:black;
+  
+}
+.nav-bar{
+
+  justify-content:space-between;
+  max-width:1500px;
+  margin:0 auto;
+  align-items:center;
+}
+
+
+/* Banner  */
+
+.banner-btn{
+  background-color:#E02C6D;
+  color:white;
+  padding:15px 9px;
+  border:none;
+  border-radius:9px;
+  cursor:pointer;
+  margin-top: 20px;
+}
+.banner-container{
+justify-content:space-between;
+justify-items: center;
+align-items: center;
+height:600px;
+max-width:1800px;
+
+
+
+
+}
+.banner-title{
+font-weight: bolder;
+
+}
+.fa-solid {
+  padding:0 8px;
+animation:color 2s
+
+}
+
+
+.banner-left{
+/* margin-left:140px; */
+width:600px;
+height:400px;
+margin:0 auto;
+padding-top:120px;
+
+
+
+}
+
+.banner-right img{
+background-image: url(./influencer-gear/images/Circle\ design.svg);
+
+
+background-repeat: no-repeat;
+
+
+}
+.banner-right{
+height:500px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile device */
+@media screen and (max-width:570px) {
+.nav-bar{
+  flex-direction:column;
+
+}
+.banner-container{
+  flex-direction:column-reverse;
+  padding-top:320px;
+
+}
+.banner-left{
+ width:100%;
+ padding-left: 30px;
+}
+.banner-right img{
+ width: 100%;
+}
+}
+
+/* Medium device */
+
+@media screen and (min-width:570px) and (max-width:992){
+
+}
+
+
